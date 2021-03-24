@@ -1,5 +1,5 @@
 {
-  "name": "onboarding-project-template",
+  "name": "potential-journey",
   "version": "1.0.0",
   "description": "Onboarding project for new members to learn about the basic technologies used in the `aie` project.",
   "private": true,
@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "license": "UNLICENSED",
-  "author": "YOUR_NAME_HERE",
+  "author": "zhoutwo",
   "dependencies": {
     "audiobuffer-to-wav": "^1.0.0",
     "bootstrap": "^4.5.0",

@@ -72,13 +72,13 @@ jobs:
       - name: Upload Packaged App
         uses: actions/upload-artifact@v1
         with:
-          name: onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.zip
-          path: dist/onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe
+          name: potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.zip
+          path: dist/potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe
       - name: Upload Blockmap
         uses: actions/upload-artifact@v1
         with:
-          name: onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap.zip
-          path: dist/onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap
+          name: potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap.zip
+          path: dist/potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap
       - name: Upload AutoUpdate Metadata
         uses: actions/upload-artifact@v1
         with:
@@ -122,13 +122,13 @@ jobs:
       - name: Upload Packaged App
         uses: actions/upload-artifact@v1
         with:
-          name: onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
-          path: dist/onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg
+          name: potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
+          path: dist/potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg
       - name: Upload Blockmap
         uses: actions/upload-artifact@v1
         with:
-          name: onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap.zip
-          path: dist/onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap
+          name: potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap.zip
+          path: dist/potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap
       - name: Upload AutoUpdate Metadata
         uses: actions/upload-artifact@v1
         with:
@@ -172,8 +172,8 @@ jobs:
       - name: Upload Packaged App
         uses: actions/upload-artifact@v1
         with:
-          name: onboarding-project-template.AppImage.zip
-          path: dist/onboarding-project-template.AppImage
+          name: potential-journey.AppImage.zip
+          path: dist/potential-journey.AppImage
       - name: Upload AutoUpdate Metadata
         uses: actions/upload-artifact@v1
         with:
@@ -203,11 +203,11 @@ jobs:
       - name: Download Packaged App for Windows
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.zip
+          name: potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.zip
       - name: Download Blockmap for Windows
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap.zip
+          name: potential-journey-setup-${{ steps.find-new-version.outputs.new_release_version }}.exe.blockmap.zip
       - name: Download AutoUpdate Metadata for Windows
         uses: actions/download-artifact@v1
         with:
@@ -215,11 +215,11 @@ jobs:
       - name: Download Packaged App for macOS
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
+          name: potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
       - name: Download Blockmap for macOS
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap.zip
+          name: potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.blockmap.zip
       - name: Download AutoUpdate Metadata for macOS
         uses: actions/download-artifact@v1
         with:
@@ -227,11 +227,11 @@ jobs:
       - name: Download Packaged App for macOS
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
+          name: potential-journey-${{ steps.find-new-version.outputs.new_release_version }}.dmg.zip
       - name: Download Packaged App for Linux
         uses: actions/download-artifact@v1
         with:
-          name: onboarding-project-template.AppImage.zip
+          name: potential-journey.AppImage.zip
       - name: Download AutoUpdate Metadata for Linux
         uses: actions/download-artifact@v1
         with:

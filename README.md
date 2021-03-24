@@ -1,4 +1,4 @@
-# onboarding-project-template
+# potential-journey
 
 This is an onboarding project for new members to learn about the basic technologies used in the `aie` project.
 
@@ -20,7 +20,7 @@ The API supports two actions:
 
 You need to:
 1. "Use this template" to create your own copy of the starter code.
-1. Add your name to `package.json` and `electron-builder.js` (look for `YOUR_NAME_HERE`).
+1. Add your name to `package.json` and `electron-builder.js` (look for `zhoutwo`).
 1. Commit code to a feature branch until you feel it's time to release a new iteration 
 (i.e. Don't swarm the releases).
 1. Implement the features.

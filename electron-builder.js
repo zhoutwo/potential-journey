@@ -8,7 +8,7 @@ const compression = isFastPackaging || !isCi ? 'store' : 'maximum';
 console.info(`Compression level: ${compression}`);
 
 module.exports = {
-  appId: 'com.YOUR_NAME_HERE.onboarding-project-template',
+  appId: 'com.zhoutwo.potential-journey',
   copyright: 'Copyright © 2020 ${author}',
   asar: true,
   compression,
